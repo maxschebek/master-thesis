@@ -1,0 +1,263 @@
+% Way of execution: LaTeX, BibTeX, 2times pdfLaTeX
+
+% \listfiles    % Erstellt eine Liste von allen benutzten Dateien
+% zusammen mit ihrer Versionen
+% und ggf. einer kurzen Beschreibung
+% Sie wird in die log-Datei geschrieben
+
+% Packages and doc-intro ------------------------------------------------------
+
+\documentclass[english,
+	a4paper,
+	pagesize,
+	pdftex,
+	12pt,
+	twoside, % + BCOR darunter: für doppelseitigen Druck aktivieren, sonst beide deaktivieren
+	BCOR=5mm, % Dicke der Bindung berücksichtigen (Copyshop fragen, wie viel das ist)
+	%ngerman,
+	%fleqn,
+	final,
+	xcolor=dvipsnames,
+	bibliography=totoc,
+	]{scrartcl}
+\usepackage[top=2cm, bottom=2.5cm, left=3cm, right=3cm]{geometry}
+
+%notwendige Pakete
+\usepackage[english]{babel}    % mehrsprachiger Textsatz
+% babel: letzte Sprache in Optionen zeigt die Sprache des Dokumentes
+% und kann durch den Befehl \selectlanguage{} geaendert werden
+% Passen Sie die Optionen des babel-Paketes nach Bedarf an! darf geändert werden
+\usepackage{graphicx}                       % zum Einbinden von Grafiken
+%\usepackage{subfig}
+\usepackage{lmodern}                        % Ersatz fuer Computer Modern-Schriften
+                                            % zum besseren Aussehen am Bildschirm
+\usepackage{listings}						%einbinden von .dat und .m dateien
+%\usepackage{fancyhdr}						%für kopf/fußzeile und anderes zeug
+\usepackage{amsmath}%\numberwithin{equation}{chapter}				
+\usepackage{amsthm}						% theorems, definitions
+\usepackage{amssymb}
+\usepackage{ mathrsfs }
+
+%Anführungszeichen
+\usepackage{textcmds}
+% for mathbb
+\usepackage{mathtools}						%klammer drüber/drunter
+\usepackage{ulem}							%für unterstreichen
+%\usepackage{subfigure} 						%mehrere plots nebeneinan
+\usepackage{extarrows}						%fuer langes == zeichen
+\usepackage{comment}						%kommentarregion
+\usepackage[colorinlistoftodos]{todonotes}  %todo notes mit farbe
+%\usepackage{color}							%farben: wikibooks.org/wiki/LaTeX Wörterbuch:_textcolor
+%\usepackage{bbold}
+\usepackage{standalone}
+\usepackage{calrsfs}
+
+%Caption definitions
+\usepackage[labelfont=bf,figurename=Figure,tablename=Table]{caption}
+\captionsetup{format=plain}
+
+%Bibliography settings
+\usepackage{cite}							
+\RequirePackage{doi}
+% \AtEveryBibitem{\clearfield{month}} % Show no month
+
+
+
+\usepackage{pdfpages}					% zum einbinden von pdfs
+\usepackage{float}						% figure placement
+\usepackage{subcaption}					% captions in subfigures
+\usepackage[titletoc]{appendix}			%appendices
+\usepackage{physics}
+\usepackage{tikz}
+\usetikzlibrary{arrows,decorations.markings,plotmarks}
+\usepackage[compat=1.1.0]{tikz-feynman}%highlight in mathmode
+\tikzfeynmanset{every vertex/.style={dot},warn luatex=false}
+\numberwithin{equation}{section}
+\numberwithin{figure}{section}
+\numberwithin{table}{section}
+\usepackage{bbold}
+
+\usepackage{glossaries} 					% make glossar
+\makeglossaries
+
+\usepackage{mdframed}					% make theorem boxes
+\usepackage{lipsum}
+   
+\newmdtheoremenv{theo}{Theorem}
+   
+\usepackage{printlen}
+\usepackage{layouts}
+%No space after paragraph
+\setlength{\parindent}{0em}
+\setlength{\parskip}{1em}
+
+%Titel format
+\usepackage{titlesec}
+\titleformat{\section}
+{\normalfont\LARGE\sffamily\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}
+{\normalfont\large\sffamily\bfseries}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}
+{\normalfont\normalsize\sffamily\bfseries}{\thesubsubsection}{1em}{}
+%Spacing after Tiles
+\titlespacing*{\section}     {0pt}{3cm}{1cm}
+\titlespacing*{\subsection}   {0pt}{1cm}{.25cm}
+\titlespacing*{\subsubsection} {0pt}{1cm}{.25cm}
+
+%Footnote
+\usepackage[symbol,hang,flushmargin]{footmisc}
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+%Tables
+\usepackage{array}
+\newcolumntype{Y}{>{\centering\arraybackslash}X}
+
+\newcommand*\widefbox[1]{\fbox{\hspace{2em}#1\hspace{2em}}}
+\usepackage[utf8x]{inputenc} % Eingabekodierung: UTF-8
+%\usepackage{fixltx2e} % Schickere Ausgabe
+\usepackage[T1]{fontenc} % ordentliche Trennung
+\usepackage{lmodern} % ordentliche Schriften
+\usepackage[unicode=true]{hyperref}
+\usepackage{setspace,tikz,tabularx}% für Elemente der Titelseite und Flowchart
+%Row height in tabularx
+\setlength{\extrarowheight}{3pt}
+\usepackage[draft=false,babel,tracking=true,kerning=true,spacing=true]{microtype} % optischer Randausgleich etc.
+\tikzstyle{fundamental} = [rectangle,line width = 1.2pt, rounded corners, minimum width= 12cm,minimum height=1cm, text centered, draw=purple ]
+\tikzstyle{fundamentalnew} = [rectangle,line width = 1.2pt, rounded corners, minimum width= 12cm,minimum height=1cm, text centered, draw=orange]
+\tikzstyle{process} = [rectangle, line width = 1.2pt, rounded corners, minimum width= 4cm,minimum height=1cm, text centered, draw=purple]
+\tikzstyle{processnew} = [rectangle, line width = 1.2pt, rounded corners, minimum width= 4cm,minimum height=1cm, text centered, draw=orange]
+\tikzstyle{arrow} = [ very thick,->,>=Triangle]
+\tikzstyle{line} = [ very thick]
+\usetikzlibrary{arrows}
+\newcommand{\fullarrow}{\tikz \draw[-triangle 45, line width = 2pt] (0,0) -- +(.5,0);}
+\newcommand{\nonintarrow}{\tikz \draw[-triangle 45, line width = 1pt] (0,0) -- +(.5,0);}
+\usepackage{hhline}
+%double underline
+\def\doubleunderline#1{\underline{\underline{#1}}}
+
+\newcommand{\exciting}{{\usefont{T1}{lmtt}{b}{n}exciting}}
+
+\usepackage{lscape}	%erlaube querformat mit \begin{landscape}SEITE IM QF\end{landscape}
+\usepackage{afterpage} % avoid blankspace due to lscape
+
+% Further formal stuff ------------------------------------------
+
+\include{usefultex/command}				% new cmds
+
+\include{formal/metadata}                % Bitte ALLE Angaben erfüllen!
+\include{formal/compatibility}
+
+\include{formal/glossary}
+
+%-Eigene Trennregeln*---------------------------------------------
+% Define paragraph
+% \setlength{\parindent}{0em}
+% \setlength{\parskip}{1em}
+% \include{hyphenations}
+
+%-Dokument--------------------------------------------------------
+
+\begin{document}
+
+% Es muss zitiert werden können! Im Vorspann roemisch,
+% Im Hauptteil benutzt man arabische Nummerierung.
+\pagenumbering{roman}
+
+%-Titelblatt------------------------------------------------------
+
+% Beispielhafte Nutzung der Vorlage für die Titelseite (bitte anpassen):
+\input{Institutsvorlage/Institutsvorlage}
+\titel{Impact of electron-phonon interactions \linebreak  on excitons in polar crystals: \linebreak A first-principles study} % Titel der Arbeit
+\typ{Masterarbeit} % Typ der Arbeit:  Diplomarbeit, Masterarbeit, Bachelorarbeit
+%\grad{Master of Science (M. Sc.)} % erreichter Akademischer Grad
+% z.B.: Master of Science (M. Sc.), Master of Education (M. Ed.), Bachelor of Science (B. Sc.), Bachelor of Arts (B. A.), Diplominformatikerin
+\autor{Maximilian Otto Schebek} % Autor der Arbeit, mit Vor- und Nachname
+\gebdatum{01.03.1994} % Geburtsdatum des Autors
+\gebort{Darmstadt} % Geburtsort des Autors
+\gutachter{Prof.\:Dr.\:Dr.\:h.\:c.\:Claudia Draxl}{Prof.\:Dr.\:Norbert Koch} % Erst- und Zweitgutachter der Arbeit
+\betreuer{Prof.\:Dr.\:Fabio Caruso} % Betreuer der Arbeit
+\mitverteidigung % entfernen, falls keine Verteidigung erfolgt
+\makeTitel
+
+%-Zusammenfassung / Abstract-------------------------------------
+
+%\include{work/abstract}
+%\selectlanguage{english}               % Bitte an die Sprache denken!!!
+%\setcounter{page}{1}                   %   Bitte an die Seitenzahl denken!!!
+
+% Hier folgt die eigentliche Arbeit (bei doppelseitigem Druck auf einem neuen Blatt):
+\tableofcontents
+
+
+%-Inhaltsverzeichnis----------------------------------------------
+
+%\pagebreak
+
+%\pagebreak
+
+%-Hauptteil-------------------------------------------------------
+
+
+\pagestyle{myheadings}                  % bzw. ist fancyhdr zu benutzten
+
+%-Kapitel---------------------------------------------------------
+\newpage
+\pagenumbering{arabic}
+\include{work/intro}
+\include{work/background}
+\include{work/workpart}
+
+%-Anhang----------------------------------------------------------\addcontentsline{toc}{section}{Acknowledgements}
+
+
+\appendix
+\include{work/appendix}
+\newpage
+%-Literaturverzeichnis--------------------------------------------
+\phantomsection
+%\nocite{*}
+%die Verwendung von bibtex ist Pflicht!!!in
+\bibliographystyle{myabbrv}        % modified abbrv with doi
+\phantom{.}
+\vspace{3cm}
+\bibliography{formal/bibliography}
+\newpage
+\phantom{.}
+\vspace{3cm}
+\listoffigures
+\newpage
+\phantom{.}
+\vspace{3cm}
+\listoftables
+
+%-Glossary-------------------------------------------------------
+
+%\printglossaries
+%\glsaddall
+
+%-Kapitel des Anhangs---------------------------------------------
+
+\include{work/appendixA}
+\include{work/appendixB}
+%usw.
+
+%-Abkuerzungen*---------------------------------------------------
+
+%\include{abbreviations}
+
+%-Danksagung-----------------------------------------------------
+
+\include{formal/acknowledgement}
+
+%-Lebenslauf------------------------------------------------------
+
+%\include{formal/cv}
+
+%-Selbständigkeiterklärung---------------------------------------
+% Ohne Unterschrift
+% \include{formal/declaration}
+%Mit Unterschrift (Scan)
+\includepdf[pages={1}]{formal/eigenstaendigkeit}
+
+%-----------------------------------------------------------------
+
+\end{document}

@@ -1,0 +1,910 @@
+% Encoding: UTF-8
+
+@Book{Altland,
+  title     = {Condensed Matter Field Theory},
+  publisher = {Cambridge University Press},
+  year      = {2010},
+  author    = {Altland,Alexander and Simons,Ben},
+  owner     = {huebner},
+  timestamp = {2018.10.08},
+}
+
+@Article{epiALLEN,
+  Title                    = {Electron-Phonon Effects in the Infrared Properties of Metals},
+  Author                   = {P. B. Allen},
+  Journal                  = {Physical Review B: Condensed Matter and Materials Physics},
+  Year                     = {1971},
+
+  Owner                    = {huebner},
+  Timestamp                = {2018.10.01}
+}
+
+@Article{NonadiabaticPhononSelfEnergyMAKSIMOV,
+  Title                    = {NONADIABATIC EFFECTS IN OPTICAL PHONON SELF-ENERGY},
+  Author                   = {E. G. Maksimov, S. V. Shulga},
+  Journal                  = {Solid State Communications},
+  Year                     = {1996},
+
+  Owner                    = {huebner},
+  Timestamp                = {2018.10.01}
+}
+
+@Article{gwMethodARYA,
+  Title                    = {The GW method},
+  Author                   = {F. Aryasetiawan, O. Gunnarsson},
+  Journal                  = {Reports on Progress in Physics},
+  Year                     = {1998},
+
+  Owner                    = {huebner},
+  Timestamp                = {2018.10.01}
+}
+
+@Article{Bechstedt,
+  author    = {F. Bechstedt, K. Tenelsen, B. Adolph},
+  title     = {Compensation of Dynamical Quasiparticle and Vertex Corrections in Optical Spectra},
+  journal   = {PHYSICAL REVIEW LETTERS},
+  year      = {1997},
+  owner     = {huebner},
+  timestamp = {2018.10.01},
+}
+
+@Article{FabioPaper,
+  author    = {Fabio Caruso, Dino Novko, Claudia Draxl},
+  title     = {Phonon-assisted damping of plasmons in three- and two-dimensional metals},
+  year      = {2018},
+  owner     = {huebner},
+  timestamp = {2018.10.01},
+}
+
+@Article{ModelCAPPELINI,
+  Title                    = {Model dielectric function for semiconductors},
+  Author                   = {G. Cappellini, R. Del Sole, Lucia Reining, F. Bechstedt},
+  Journal                  = {Physical Review B: Condensed Matter and Materials Physics},
+  Year                     = {1993},
+
+  Owner                    = {huebner},
+  Timestamp                = {2018.10.01}
+}
+
+@Article{electronicExcitationsONIDA,
+  Title                    = {Electronic excitations: density-functional versus many-body
+Green’s-function approaches},
+  Author                   = {Giovanni Onida, Lucia Reining, Angel Rubio},
+  Journal                  = {REVIEWS OF MODERN PHYSICS},
+  Year                     = {2002},
+
+  Owner                    = {huebner},
+  Timestamp                = {2018.10.01}
+}
+
+@Book{GrossoParravicini,
+  title     = {Solid State Physics, Second Edition},
+  publisher = {Elsevier},
+  year      = {2014},
+  author    = {Grosso,Giuseppe and Parravicini,Giuseppe Pastori},
+  editor    = {Unknown},
+  comment   = {Especially p. 323 & 324 for sum rules of the dielectric function},
+  owner     = {huebner},
+  timestamp = {2018.10.01},
+}
+
+@Article{TransportEpgHOLSTEIN,
+  Title                    = {Theory of Transport Phenomena in
+an Electron-Phonon Gas},
+  Author                   = {T. Holstein},
+  Journal                  = {Annals of Physics (San Diego, CA, United States)},
+  Year                     = {1964},
+
+  Owner                    = {huebner},
+  Timestamp                = {2018.10.01}
+}
+
+@Book{Huang,
+  Title                    = {Statistical Mechanics},
+  Author                   = {Kerson Huang},
+  Publisher                = {John Wiley and Sons, Inc},
+  Year                     = {1987},
+
+  Owner                    = {huebner},
+  Timestamp                = {2018.10.12}
+}
+
+@Article{opticalPhononsIPATOVA,
+  Title                    = {Long-wave optical-phonon spectrum in metals and heavily
+doped semiconductors},
+  Author                   = {I. P. Ipatova, A. V. Subashiev},
+  Journal                  = {Zh. Eksp. Teor. Fiz},
+  Year                     = {1974},
+
+  Owner                    = {huebner},
+  Timestamp                = {2018.10.01}
+}
+
+@Article{PlasmaronsCARBOTTE,
+  Title                    = {Emergence of plasmaronic structure in the near-field optical response of graphene},
+  Author                   = {J. P. Carbotte, J. P. F. LeBlanc, E. J. Nicol},
+  Journal                  = {Physical Review B: Condensed Matter and Materials Physics},
+  Year                     = {2012},
+
+  Owner                    = {huebner},
+  Timestamp                = {2018.10.01}
+}
+
+@Article{epiCARBOTTE,
+  Title                    = {Impact of electron-phonon coupling on near-field optical spectra in graphene},
+  Author                   = {J. P. Carbotte, J. P. F. LeBlanc, Phillip E. C. Ashby},
+  Journal                  = {Physical Review B: Condensed Matter and Materials Physics},
+  Year                     = {2013},
+
+  Owner                    = {huebner},
+  Timestamp                = {2018.10.01}
+}
+
+@Article{Keating,
+  author    = {P. N. KEATING},
+  title     = {Dielectric Screening and the Phonon Spectra of Metallic and Nonmetallic Crystals},
+  journal   = {Physical Review},
+  year      = {1968},
+  owner     = {huebner},
+  timestamp = {2018.10.01},
+}
+
+@Book{Kittel,
+  Title                    = {Introduction to Solid State Physics},
+  Author                   = {Charles Kittel},
+  Editor                   = {Stuart Johnson, Patricia McFadden},
+  Publisher                = {John Wiley and Sons, Inc},
+  Year                     = {2005},
+
+  Owner                    = {huebner},
+  Timestamp                = {2018.10.12}
+}
+
+@Book{KadanoffBaym,
+  Title                    = {Quantum Statistical Mechanics},
+  Author                   = {Leo P. Kadanoff, Gordon Baym},
+  Publisher                = {Perseus Books},
+  Year                     = {1962},
+
+  Owner                    = {huebner},
+  Timestamp                = {2018.10.05}
+}
+
+@Book{Mahan,
+  Title                    = {Many-Particle Physics},
+  Author                   = {Gerald D. Mahan},
+  Publisher                = {Plenum Press New York},
+  Year                     = {1990},
+
+  Owner                    = {huebner},
+  Timestamp                = {2018.10.22}
+}
+
+@Book{PeskinSchroeder,
+  Title                    = {An Introduction to Quantum Field Theory},
+  Author                   = {Michael E. Peskin, Daniel V. Schroeder},
+  Publisher                = {Westview Press},
+  Year                     = {1995},
+
+  Comment                  = {Especially p. 189 & 190 for Feynman parameters, p. 222-230 for LSZ reduction, p. 265-268, 323-330, 394-406 for renormalization},
+  Owner                    = {huebner},
+  Timestamp                = {2018.10.02}
+}
+
+@Book{Nolting7,
+  Title                    = {Grundkurs, Theoretische Physik 7, Viel-Teilchen-Theorie},
+  Author                   = {Wolfgang Nolting},
+  Publisher                = {Springer Dordrecht Heidelberg London New York},
+  Year                     = {2009},
+
+  Comment                  = {Especially Sec. 5.3 for the derivation of Feynman diagram techniques and p. 361 for Dyson's equation},
+  Owner                    = {huebner},
+  Timestamp                = {2018.10.22}
+}
+
+@Book{Feshbach,
+  Title                    = {Methods of Theoretical Physics, Part 1},
+  Author                   = {Philip M. Morse, Herman Feshbach},
+  Publisher                = {Feshbach Publishing, LLC},
+  Year                     = {1981},
+
+  Owner                    = {huebner},
+  Timestamp                = {2018.10.12}
+}
+
+@Article{IPQADynamicalEffectsSELSOLE,
+  Title                    = {Optical properties of solids within the independent-quasiparticle approximation:
+Dynamical effects},
+  Author                   = {R. Del Sole, R. Girlanda},
+  Journal                  = {Physical Review B: Condensed Matter and Materials Physics},
+  Year                     = {1996},
+
+  Owner                    = {huebner},
+  Timestamp                = {2018.10.01}
+}
+
+@Article{SupercondPbMori,
+  Title                    = {Optical self-energy of superconducting Pb in the terahertz region},
+  Author                   = {T. Mori, E. J. Nicol, S. Shiizuka, K. Kuniyasu, T. Nojima, N. Toyota, J. P. Carbotte},
+  Journal                  = {PHYSICAL REVIEW B},
+  Year                     = {2008},
+
+  Owner                    = {huebner},
+  Timestamp                = {2018.10.01}
+}
+
+@TechReport{PolylogsWOOD,
+  author                 = {David Wood},
+  title                  = {The Computation of Polylogarithms},
+  institution            = {University of Kent, Computing Laboratory},
+  year                   = {1992},
+  number                 = {15-92*},
+  address                = {University of Kent, Canterbury, UK},
+  month                  = {June},
+  hensa_abstractfilename = {pub/misc/ukc.reports/comp.sci/abstracts/15-92},
+  hensa_ftpaddress       = {unix.hensa.ac.uk},
+  hensa_reportfilename   = {pub/misc/ukc.reports/comp.sci/reports/15-92.ps.Z},
+  keywords               = {determinacy analysis, Craig interpolants},
+  pages                  = {182-196},
+  url                    = {http://www.cs.kent.ac.uk/pubs/1992/110},
+}
+
+@Article{fritzsche2003metal,
+  author    = {Fritzsche, Wolfgang and Taton, T Andrew},
+  title     = {Metal nanoparticles as labels for heterogeneous, chip-based DNA detection},
+  journal   = {Nanotechnology},
+  year      = {2003},
+  volume    = {14},
+  number    = {12},
+  pages     = {R63},
+  publisher = {IOP Publishing},
+}
+
+@Article{biomed2,
+  author    = {Hu, Min and Chen, Jingyi and Li, Zhi-Yuan and Au, Leslie and Hartland, Gregory V and Li, Xingde and Marquez, Manuel and Xia, Younan},
+  title     = {Gold nanostructures: engineering their plasmonic properties for biomedical applications},
+  journal   = {Chemical Society Reviews},
+  year      = {2006},
+  volume    = {35},
+  number    = {11},
+  pages     = {1084--1094},
+  publisher = {Royal Society of Chemistry},
+}
+
+@Article{biomed3,
+  author    = {Eustis, Susie and El-Sayed, Mostafa A},
+  title     = {Why gold nanoparticles are more precious than pretty gold: noble metal surface plasmon resonance and its enhancement of the radiative and nonradiative properties of nanocrystals of different shapes},
+  journal   = {Chemical society reviews},
+  year      = {2006},
+  volume    = {35},
+  number    = {3},
+  pages     = {209--217},
+  publisher = {Royal Society of Chemistry},
+}
+
+@Article{plasmonicBasics,
+  author    = {Garc{\'\i}a, Miguel A},
+  title     = {Surface plasmons in metallic nanoparticles: fundamentals and applications},
+  journal   = {Journal of Physics D: Applied Physics},
+  year      = {2011},
+  volume    = {44},
+  number    = {28},
+  pages     = {283001},
+  publisher = {IOP Publishing},
+}
+
+@Article{energy1,
+  author    = {Pillai, S and Catchpole, KR and Trupke, T and Green, MA},
+  title     = {Surface plasmon enhanced silicon solar cells},
+  journal   = {Journal of applied physics},
+  year      = {2007},
+  volume    = {101},
+  number    = {9},
+  pages     = {093105},
+  publisher = {AIP},
+}
+
+@Article{energy2,
+  author    = {Atwater, Harry A and Polman, Albert},
+  title     = {Plasmonics for improved photovoltaic devices},
+  journal   = {Nature materials},
+  year      = {2010},
+  volume    = {9},
+  number    = {3},
+  pages     = {205},
+  publisher = {Nature Publishing Group},
+}
+
+@Article{energy3,
+  author    = {Matheu, P and Lim, SH and Derkacs, D and McPheeters, C and Yu, ET},
+  title     = {Metal and dielectric nanoparticle scattering for improved optical absorption in photovoltaic devices},
+  journal   = {Applied physics letters},
+  year      = {2008},
+  volume    = {93},
+  number    = {11},
+  pages     = {113108},
+  publisher = {AIP},
+}
+
+@Article{environment1,
+  author  = {Narayanan, R},
+  title   = {Chimica OGGI-Chem. Today 2007, 25, 84--86.(b) Narayanan, R.; El-Sayed},
+  journal = {J. Phys. Chem},
+  year    = {2005},
+  volume  = {109},
+  pages   = {12663--12676},
+}
+
+@Article{environment2,
+  author  = {Awazu, K and Fujimaki, M and Rockstuhl, C and Tominaga, J and Murakami, H and Ohki, Y},
+  title   = {Yoshida N and Watanabe T},
+  journal = {J. Am. Chem. Soc.},
+  year    = {2008},
+  volume  = {2008},
+  pages   = {130},
+}
+
+@Article{environment3,
+  author  = {Larsson, EM and Langhammer, C},
+  title   = {Zoric, 1. \& Kasemo, B. Nanoplasmonic probes of catalytic reactions},
+  journal = {Science},
+  year    = {2009},
+  volume  = {326},
+  pages   = {1091--1094},
+}
+
+@Article{sensing,
+  author    = {Homola, Ji{\v{r}}{\i}́ and Yee, Sinclair S and Gauglitz, G{\"u}nter},
+  title     = {Surface plasmon resonance sensors},
+  journal   = {Sensors and Actuators B: Chemical},
+  year      = {1999},
+  volume    = {54},
+  number    = {1-2},
+  pages     = {3--15},
+  publisher = {Elsevier},
+}
+
+@Article{infotech1,
+  author    = {Maier, Stefan A},
+  title     = {Effective mode volume of nanoscale plasmon cavities},
+  journal   = {Optical and Quantum Electronics},
+  year      = {2006},
+  volume    = {38},
+  number    = {1-3},
+  pages     = {257--267},
+  publisher = {Springer},
+}
+
+@Article{infotech2,
+  author    = {Barnes, William L and Dereux, Alain and Ebbesen, Thomas W},
+  title     = {Surface plasmon subwavelength optics},
+  journal   = {nature},
+  year      = {2003},
+  volume    = {424},
+  number    = {6950},
+  pages     = {824},
+  publisher = {Nature Publishing Group},
+}
+
+@Article{infotech3,
+  author    = {Ozbay, Ekmel},
+  title     = {Plasmonics: merging photonics and electronics at nanoscale dimensions},
+  journal   = {science},
+  year      = {2006},
+  volume    = {311},
+  number    = {5758},
+  pages     = {189--193},
+  publisher = {American Association for the Advancement of Science},
+}
+
+@Article{satskinks1,
+  author  = {Damascelli, Andrea},
+  title   = {A. Damascelli, Z. Hussain, and Z.-X. Shen, Rev. Mod. Phys. 75, 473 (2003).},
+  journal = {Rev. Mod. Phys.},
+  year    = {2003},
+  volume  = {75},
+  pages   = {473},
+}
+
+@Article{satskinks2,
+  author    = {Moser, S and Moreschini, Luca and Ja{\'c}imovi{\'c}, J and Bari{\v{s}}i{\'c}, OS and Berger, Helmuth and Magrez, Arnaud and Chang, YJ and Kim, KS and Bostwick, A and Rotenberg, E and others},
+  title     = {Tunable polaronic conduction in anatase TiO 2},
+  journal   = {Physical review letters},
+  year      = {2013},
+  volume    = {110},
+  number    = {19},
+  pages     = {196403},
+  publisher = {APS},
+}
+
+@Article{satskinks3,
+  author  = {Wang, Z},
+  title   = {Z. Wang, S. McKeown Walker, A. Tamai, Y. Wang, Z. Ristic, FY Bruno, A. de la Torre, S. Ricc{\`o}, NC Plumb, M. Shi, P. Hlawenka, J. S{\'a}nchez-Barriga, A. Varykhalov, TK Kim, M. Hoesch, PDC King, W. Meevasana, U. Diebold, J. Mesot, B. Moritz, TP Devereaux, M. Radovic, and F. Baumberger, Nat. Mater. 15, 835 (2016).},
+  journal = {Nat. Mater.},
+  year    = {2016},
+  volume  = {15},
+  pages   = {835},
+}
+
+@Article{satskinks4,
+  author    = {Verdi, Carla and Caruso, Fabio and Giustino, Feliciano},
+  title     = {Origin of the crossover from polarons to Fermi liquids in transition metal oxides},
+  journal   = {Nature communications},
+  year      = {2017},
+  volume    = {8},
+  pages     = {15769},
+  publisher = {Nature Publishing Group},
+}
+
+@Article{satskinks5,
+  author    = {Riley, Jonathon Mark and Caruso, F and Verdi, C and Duffy, LB and Watson, Matthew David and Bawden, Lewis and Volckaert, K and van der Laan, G and Hesjedal, T and Hoesch, M and others},
+  title     = {Crossover from lattice to plasmonic polarons of a spin-polarised electron gas in ferromagnetic EuO},
+  journal   = {Nature communications},
+  year      = {2018},
+  volume    = {9},
+  number    = {1},
+  pages     = {2305},
+  publisher = {Nature Publishing Group},
+}
+
+@Article{tempband1,
+  author    = {Logothetidis, S and Petalas, J and Polatoglou, HM and Fuchs, D},
+  title     = {Origin and temperature dependence of the first direct gap of diamond},
+  journal   = {Physical Review B},
+  year      = {1992},
+  volume    = {46},
+  number    = {8},
+  pages     = {4483},
+  publisher = {APS},
+}
+
+@Article{tempband2,
+  author  = {Eiguren, Asier},
+  title   = {A. Eiguren and C. Ambrosch-Draxl, Phys. Rev. Lett. 101, 036402 (2008).},
+  journal = {Phys. Rev. Lett.},
+  year    = {2008},
+  volume  = {101},
+  pages   = {036402},
+}
+
+@Article{tempband3,
+  author    = {Eiguren, Asier and Ambrosch-Draxl, Claudia and Echenique, Pedro M},
+  title     = {Self-consistently renormalized quasiparticles under the electron-phonon interaction},
+  journal   = {Physical Review B},
+  year      = {2009},
+  volume    = {79},
+  number    = {24},
+  pages     = {245103},
+  publisher = {APS},
+}
+
+@Article{optspec1,
+  author  = {Jellison Jr, GE},
+  title   = {GE Jellison, Jr., and FA Modine, Phys. Rev. B 27, 7466 (1983).},
+  journal = {Phys. Rev. B},
+  year    = {1983},
+  volume  = {27},
+  pages   = {7466},
+}
+
+@Article{optspec2,
+  author  = {Lautenschlager, P},
+  title   = {P. Lautenschlager, M. Garriga, L. Vina, and M. Cardona, Phys. Rev. B 36, 4821 (1987).},
+  journal = {Phys. Rev. B},
+  year    = {1987},
+  volume  = {36},
+  pages   = {4821},
+}
+
+@Article{optspec3,
+  author  = {Marini, A},
+  title   = {A. Marini, Phys. Rev. Lett. 101, 106405 (2008).},
+  journal = {Phys. Rev. Lett.},
+  year    = {2008},
+  volume  = {101},
+  pages   = {106405},
+}
+
+@Article{kohn1,
+  author  = {Piscanec, S},
+  title   = {S. Piscanec, M. Lazzeri, F. Mauri, AC Ferrari, and J. Robertson, Phys. Rev. Lett. 93, 185503 (2004).},
+  journal = {Phys. Rev. Lett.},
+  year    = {2004},
+  volume  = {93},
+  pages   = {185503},
+}
+
+@Article{kohn2,
+  author  = {Lazzeri, M},
+  title   = {M. Lazzeri and F. Mauri, Phys. Rev. Lett. 97, 266407 (2006).},
+  journal = {Phys. Rev. Lett.},
+  year    = {2006},
+  volume  = {97},
+  pages   = {266407},
+}
+
+@Article{kohn3,
+  author    = {Caruso, Fabio and Hoesch, Moritz and Achatz, Philipp and Serrano, Jorge and Krisch, Michael and Bustarret, Etienne and Giustino, Feliciano},
+  title     = {Nonadiabatic Kohn Anomaly in Heavily Boron-Doped Diamond},
+  journal   = {Physical review letters},
+  year      = {2017},
+  volume    = {119},
+  number    = {1},
+  pages     = {017001},
+  publisher = {APS},
+}
+
+@Article{hotcarr1,
+  author  = {Bernardi, M},
+  title   = {M. Bernardi, D. Vigil-Fowler, CS Ong, JB Neaton, and SG Louie, Proc. Natl. Acad. Sci. USA 112, 5291 (2015).},
+  journal = {Proc. Natl. Acad. Sci. USA},
+  year    = {2015},
+  volume  = {112},
+  pages   = {5291},
+}
+
+@Article{hotcarr2,
+  author  = {Bernardi, M},
+  title   = {M. Bernardi, D. Vigil-Fowler, J. Lischner, JB Neaton, and SG Louie, Phys. Rev. Lett. 112, 257402 (2014).},
+  journal = {Phys. Rev. Lett.},
+  year    = {2014},
+  volume  = {112},
+  pages   = {257402},
+}
+
+@Article{hotcarr3,
+  author    = {Caruso, Fabio and Giustino, Feliciano},
+  title     = {Theory of electron-plasmon coupling in semiconductors},
+  journal   = {Physical Review B},
+  year      = {2016},
+  volume    = {94},
+  number    = {11},
+  pages     = {115208},
+  publisher = {APS},
+}
+
+@Article{collmode1,
+  author    = {Bernardi, Marco and Mustafa, Jamal and Neaton, Jeffrey B and Louie, Steven G},
+  title     = {Theory and computation of hot carriers generated by surface plasmon polaritons in noble metals},
+  journal   = {Nature communications},
+  year      = {2015},
+  volume    = {6},
+  pages     = {7044},
+  publisher = {Nature Publishing Group},
+}
+
+@Misc{collmode2,
+  author = {Brown, AM and Sundararaman, R and Narang, P and Goddard, WA and Atwater, HA},
+  title  = {ACS Nano 10, 957 (2016)},
+}
+
+@Article{collmode3,
+  author  = {Novko, D},
+  title   = {D. Novko, Nano Lett. 17, 6991 (2017).},
+  journal = {Nano Lett.},
+  year    = {2017},
+  volume  = {17},
+  pages   = {6991},
+}
+
+@Article{phondamp,
+  author  = {Grimvall, G{\"o}ran},
+  title   = {The Electron-- Phonon Interaction in Metals. Vol. 16},
+  journal = {North-Holland Publishing Co.,},
+  year    = {1981},
+  pages   = {304},
+}
+
+@Article{energy4,
+  author    = {Knight, Mark W and Sobhani, Heidar and Nordlander, Peter and Halas, Naomi J},
+  title     = {Photodetection with active optical antennas},
+  journal   = {Science},
+  year      = {2011},
+  volume    = {332},
+  number    = {6030},
+  pages     = {702--704},
+  publisher = {American Association for the Advancement of Science},
+}
+
+@Article{radtherap1,
+  author    = {Hirsch, Leon R and Stafford, R Jason and Bankson, JA and Sershen, Scott R and Rivera, B and Price, RE and Hazle, John D and Halas, Naomi J and West, Jennifer L},
+  title     = {Nanoshell-mediated near-infrared thermal therapy of tumors under magnetic resonance guidance},
+  journal   = {Proceedings of the National Academy of Sciences},
+  year      = {2003},
+  volume    = {100},
+  number    = {23},
+  pages     = {13549--13554},
+  publisher = {National Acad Sciences},
+}
+
+@Article{radtherap2,
+  author    = {O'Neal, D Patrick and Hirsch, Leon R and Halas, Naomi J and Payne, J Donald and West, Jennifer L},
+  title     = {Photo-thermal tumor ablation in mice using near infrared-absorbing nanoparticles},
+  journal   = {Cancer letters},
+  year      = {2004},
+  volume    = {209},
+  number    = {2},
+  pages     = {171--176},
+  publisher = {Elsevier},
+}
+
+@Article{longplaslife,
+  author    = {Khurgin, Jacob B},
+  title     = {How to deal with the loss in plasmonics and metamaterials},
+  journal   = {Nature nanotechnology},
+  year      = {2015},
+  volume    = {10},
+  number    = {1},
+  pages     = {2},
+  publisher = {Nature Publishing Group},
+}
+
+@Book{plasmonsZerosDielec,
+  title     = {Elementary excitations in solids},
+  publisher = {CRC Press},
+  year      = {2018},
+  author    = {Pines, David},
+}
+
+@Article{othertheory1,
+  author  = {Noffsinger, J},
+  title   = {J. Noffsinger, E. Kioupakis, CG Van de Walle, SG Louie, and ML Cohen, Phys. Rev. Lett. 108, 167402 (2012).},
+  journal = {Phys. Rev. Lett.},
+  year    = {2012},
+  volume  = {108},
+  pages   = {167402},
+}
+
+@Article{othertheory2,
+  author  = {Patrick, CE},
+  title   = {CE Patrick and F. Giustino, J. Phys.: Condens. Matter 26, 365503 (2014).},
+  journal = {J. Phys.: Condens. Matter},
+  year    = {2014},
+  volume  = {26},
+  pages   = {365503},
+}
+
+@Article{othertheory3,
+  author    = {Zacharias, Marios and Patrick, Christopher E and Giustino, Feliciano},
+  title     = {Stochastic approach to phonon-assisted optical absorption},
+  journal   = {Physical review letters},
+  year      = {2015},
+  volume    = {115},
+  number    = {17},
+  pages     = {177401},
+  publisher = {APS},
+}
+
+@Article{othertheory4,
+  author    = {Zacharias, Marios and Giustino, Feliciano},
+  title     = {One-shot calculation of temperature-dependent optical spectra and phonon-induced band-gap renormalization},
+  journal   = {Physical Review B},
+  year      = {2016},
+  volume    = {94},
+  number    = {7},
+  pages     = {075125},
+  publisher = {APS},
+}
+
+@Article{othertheory5,
+  author  = {Molina-S{\'a}nchez, A},
+  title   = {A. Molina-S{\'a}nchez, M. Palummo, A. Marini, and L. Wirtz, Phys. Rev. B 93, 155435 (2016).},
+  journal = {Phys. Rev. B},
+  year    = {2016},
+  volume  = {93},
+  pages   = {155435},
+}
+
+@Article{othertheory6,
+  author = {Antonius, G},
+  title  = {G. Antonius and SG Louie, arXiv: 1705.04245.},
+}
+
+@Book{Pines,
+  title     = {The theory of quantum liquids},
+  publisher = {WA Benjamin New York},
+  year      = {1966},
+  author    = {Pines, D and Nozi{\`e}res, P},
+  volume    = {1},
+}
+
+@Book{Kleinert,
+  title     = {Particles and quantum fields},
+  publisher = {World Scientific Singapore},
+  year      = {2016},
+  author    = {Kleinert, Hagen},
+}
+
+@Book{Abrikosov,
+  title     = {Quantum Field T5heorical Methods in Statiscal Physics},
+  publisher = {Pergamon Press},
+  year      = {1965},
+  author    = {Abrikosov, Alekset Alekseevich and Gor'Kov, LP and Dzyaloshinskii, I Ye},
+}
+
+@Book{Phillips,
+  title     = {Advanced solid state physics},
+  publisher = {Cambridge University Press},
+  year      = {2012},
+  author    = {Phillips, Philip},
+}
+
+@Book{Werner,
+  title     = {Funktionalanalysis},
+  publisher = {Springer},
+  year      = {2006},
+  author    = {Werner, Dirk},
+}
+
+@Article{Giustino,
+  author    = {Giustino, Feliciano},
+  title     = {Electron-phonon interactions from first principles},
+  journal   = {Reviews of Modern Physics},
+  year      = {2017},
+  volume    = {89},
+  number    = {1},
+  pages     = {015003},
+  publisher = {APS},
+}
+
+@Article{spp1,
+  author    = {Pitarke, JM and Silkin, VM and Chulkov, EV and Echenique, PM},
+  title     = {Theory of surface plasmons and surface-plasmon polaritons},
+  journal   = {Reports on progress in physics},
+  year      = {2006},
+  volume    = {70},
+  number    = {1},
+  pages     = {1},
+  publisher = {IOP Publishing},
+}
+
+@Book{spp2,
+  title     = {Surface plasmon nanophotonics},
+  publisher = {Springer},
+  year      = {2007},
+  author    = {Brongersma, Mark L and Kik, Pieter G},
+  volume    = {131},
+}
+
+@Misc{spp3,
+  author    = {Link, Stephan and El-Sayed, Mostafa A},
+  title     = {Spectral properties and relaxation dynamics of surface plasmon electronic oscillations in gold and silver nanodots and nanorods},
+  year      = {1999},
+  publisher = {ACS Publications},
+}
+
+@Article{eels1,
+  author    = {Egerton, Ray F},
+  title     = {Electron energy-loss spectroscopy in the TEM},
+  journal   = {Reports on Progress in Physics},
+  year      = {2008},
+  volume    = {72},
+  number    = {1},
+  pages     = {016502},
+  publisher = {IOP Publishing},
+}
+
+@Book{eels2,
+  title     = {Electron energy-loss spectroscopy in the electron microscope},
+  publisher = {Springer Science \& Business Media},
+  year      = {2011},
+  author    = {Egerton, Ray F},
+}
+
+@Article{Migdal,
+  author  = {Migdal, AB},
+  title   = {Interaction between electrons and lattice vibrations in a normal metal},
+  journal = {Sov. Phys. JETP},
+  year    = {1958},
+  volume  = {7},
+  number  = {6},
+  pages   = {996--1001},
+}
+
+@Article{Schwinger1951,
+  author    = {Schwinger, Julian},
+  title     = {On the Green’s functions of quantized fields. I},
+  journal   = {Proceedings of the National Academy of Sciences},
+  year      = {1951},
+  volume    = {37},
+  number    = {7},
+  pages     = {452--455},
+  publisher = {National Acad Sciences},
+}
+
+@Article{hedinPhoto,
+  author    = {Hedin, Lars and Michiels, John and Inglesfield, John},
+  title     = {Transition from the adiabatic to the sudden limit in core-electron photoemission},
+  journal   = {Physical Review B},
+  year      = {1998},
+  volume    = {58},
+  number    = {23},
+  pages     = {15565},
+  publisher = {APS},
+}
+
+@InCollection{Nolting3,
+  author    = {Nolting, Wolfgang},
+  title     = {Magnetostatik},
+  booktitle = {Grundkurs Theoretische Physik 3},
+  publisher = {Springer},
+  year      = {2013},
+  pages     = {173--220},
+}
+
+@PhdThesis{FabioPhD,
+  author = {Caruso, Fabio},
+  title  = {Self-consistent GW approach for the unified description of ground and excited states of finite systems},
+  year   = {2013},
+}
+
+@Book{Vignale,
+  title     = {Quantum theory of the electron liquid},
+  publisher = {Cambridge university press},
+  year      = {2005},
+  author    = {Giuliani, Gabriele and Vignale, Giovanni},
+}
+
+@Book{Dirac,
+  title     = {The quantum theory of fields. Vol. 1: Foundations},
+  publisher = {Cambridge University Press},
+  year      = {1995},
+  author    = {Weinberg, Steven},
+}
+
+@Article{alisfeg1,
+  author    = {Alfe, D and De Wijs, GA and Kresse, G and Gillan, MJ},
+  title     = {Recent developments in ab initio thermodynamics},
+  journal   = {International Journal of Quantum Chemistry},
+  year      = {2000},
+  volume    = {77},
+  number    = {5},
+  pages     = {871--879},
+  publisher = {Wiley Online Library},
+}
+
+@InCollection{Abramowitz,
+  author    = {Abramowitz, Milton and Stegun, Irene A},
+  title     = {Handbook of mathematical functions with formulas, graphs, and mathematical table},
+  booktitle = {US Department of Commerce},
+  publisher = {National Bureau of Standards Applied Mathematics series 55},
+  year      = {1965},
+}
+
+@Article{alisfeg2,
+  author  = {Pavone, P},
+  title   = {P. Pavone, R. Bauer, K. Karch, O. Sch{\"u}tt, S. Vent, W. Windl, D. Strauch, S. Baroni, and S. de Gironcoli, Physica B 219\&220, 439 (1996).},
+  journal = {Physica B},
+  year    = {1996},
+  volume  = {219},
+  pages   = {439},
+}
+
+@Article{lossFuncSing,
+  author  = {Nozi{\`e}res, P},
+  title   = {P. Nozi{\`e}res and D. Pines, Phys. Rev. 113, 1254 (1959)},
+  journal = {Phys. Rev.},
+  year    = {1959},
+  volume  = {113},
+  pages   = {1254},
+}
+
+@Article{Luttinger,
+  author    = {Luttinger, JM},
+  title     = {Fermi surface and some simple equilibrium properties of a system of interacting fermions},
+  journal   = {Physical Review},
+  year      = {1960},
+  volume    = {119},
+  number    = {4},
+  pages     = {1153},
+  publisher = {APS},
+}
+
+@Article{dilog2,
+  author    = {Lewin, Leonard},
+  title     = {Dilogarithms and associated functions},
+  year      = {1958},
+  publisher = {Macdonald},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
